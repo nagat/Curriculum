@@ -10,7 +10,7 @@ body {
 }
 #primarynav {
 	float:left;
-	color:#0000CD;
+	color:black;
 	margin-right: 1em;
 	text-align: center;
 }
@@ -31,10 +31,9 @@ table.calendar {
 }
 .days {
 	background-color: #ccc;
-
-
-
 }
+
+
 .secondary-bg {
 	background-color: #f4f4f4;
 	border: 1px solid #cccccc;
@@ -51,18 +50,27 @@ table.calendar {
 	width:100%;
 	display: block;
 	text-align: center;
+
 	
 }
 #locations {
 	float:left;
 	margin-left: 1em;
 	text-align: center;
+	list-style-type: none;
+
 	
 }
+
+#chlang {
+
+}
+
 .block {
 	float:left;
 	width:175px;
-	color:#0000CD
+	color:black;
+	
 }
 .block h3 {
 	text-transform: lowercase;
@@ -72,4 +80,5 @@ table.calendar {
 	float:left;
 	min-width:65px;
 	text-align: left;
+	list-style-type: none;
 }
