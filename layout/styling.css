@@ -1,11 +1,20 @@
 
 body {
-	font-size: 1em;
+	font-size: 100%;
+	display: block;
+	position: relative;
+
+	
+}
+a {
+
+	text-decoration: none;
 }
 
 #wrapper {
-	width:98%;
-	margin: 0.3125em auto;
+	width:80%;
+	margin: auto 20%;
+
 
 }
 #primarynav {
@@ -13,6 +22,8 @@ body {
 	color:black;
 	margin-right: 1em;
 	text-align: center;
+	padding-bottom: 10em;
+	margin-bottom: 14%;
 }
 table.calendar {
 	border-spacing: 0;
@@ -33,7 +44,13 @@ table.calendar {
 	background-color: #ccc;
 }
 
-#breadcrumb-icon, .subpage, #page-title
+.subpage a {
+	padding: 2px 5px;
+	background: white;
+	margin: 1px 3px;
+}
+
+#breadcrumb-icon, .subpage, #page-title, .footer
  {
 	display: inline-block;
 }
@@ -53,33 +70,72 @@ table.calendar {
 	width:100%;
 	display: block;
 	text-align: center;
+}
+
 
 	
-}
+
 #locations {
 	float:left;
 	margin-left: 1em;
 	text-align: center;
 	list-style-type: none;
+	padding-right: .325em;
+	padding-bottom: 10em;
+	margin-bottom: 14em;
+	
+}
+#chlang {
+	width:100px;
+	height: 22px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	
+
+}
+.areas {
+	list-style-type: none;
+	margin: 0 auto 0 auto;
+	padding: 2px 5px;
+	font-weight: bold;
+}
+.footermenu{
+	list-style-type: none;
+	background-color: #f4f4f4;
+	border: 1px solid #cccccc;
+	border-right-width: 0;
+	border-left-width: 0;
+	padding: 5px;
+	text-align: center;
+	clear: both;
+	width: 100%;
+	float: left;
+	vertical-align: baseline;
+
+}
+.footermenu li {
+
+	display: inline;
+
+
 
 	
 }
 
-#chlang {
-	width:100px;
-	height: 22px;
 
-}
+
 
 .block {
 	float:left;
 	width:175px;
 	color:black;
-	
 }
 .block h3 {
 	text-transform: lowercase;
 	text-align:center;
+
+	
+
 }
 .block li {
 	float:left;
