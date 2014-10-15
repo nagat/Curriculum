@@ -13,7 +13,8 @@ a {
 
 #wrapper {
 	width:80%;
-	margin: auto 20%;
+	margin: auto 10%;
+	min-width: 1000px;
 
 
 }
@@ -23,7 +24,9 @@ a {
 	margin-right: 1em;
 	text-align: center;
 	padding-bottom: 10em;
-	margin-bottom: 14%;
+	margin-bottom: 1em;
+	min-width: 11em;
+	min-height: 740px;
 }
 table.calendar {
 	border-spacing: 0;
@@ -82,8 +85,9 @@ table.calendar {
 	list-style-type: none;
 	padding-right: .325em;
 	padding-bottom: 10em;
-	margin-bottom: 14em;
-	
+	margin-bottom: 1em;
+	min-width: 11em;
+	min-height: 740px;
 }
 #chlang {
 	width:100px;
@@ -110,7 +114,12 @@ table.calendar {
 	clear: both;
 	width: 100%;
 	float: left;
-	vertical-align: baseline;
+	margin-bottom: 0;
+	left: 0;
+	right:0;
+	border-top: 1px #ccc solid;
+	height: 26px;
+
 
 }
 .footermenu li {
