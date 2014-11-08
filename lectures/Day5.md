@@ -11,22 +11,13 @@ Open your homework assignment. Click 'Debug' - do the outlines of your HTML look
 4. Run 'Debug' after correcting the file together
 5. Rejoice
 
-## Download and Install Drupal 7
-Note: This assumes your local environment was set up with our class
-1. Open the command line (terminal or Git Bash)
-2. cd into our Sites/vdd folder
-3. Go to your server ( 192.168.44.44 )
--- If your server is up (page says 'Welcome to VDD!'), continue to step 4
--- Otherwise, run 'vagrant reload' from within your 'vdd' folder
----- When this completes, repeat step 3
-4. Go to Drupal.org, download the latest Drupal 7.X stable version
--- https://www.drupal.org/project/drupal 
--- The latest stable 7.x version is highlighted in green
--- Download either the 'zip' or the 'tar.gz' - whatever your computer can unzip
-5. Unzip the downloaded file
-6. Move the unzipped folder (will be named drupal-7.XX) into Sites/vdd/data
--- The unzipped folder will now be located in vdd/data/drupal-7.XX
-7. cd into Sites/vdd
+#### Create the New Drupal Website
+1. clone the dev repo
+2. open Acquia Dev Desktop 
+3. click on the (+) in the bottom left corner of the window and choose "Import local Drupal site"
+4. fill in the fields
+
+
 8. SSH into your vagrant box (vagrant ssh)
 9. Create a mysql database by running the following commands (only type the parts after '--:')
 --: mysql -uroot -proot # this connects to your mysql database via the command line
