@@ -12,14 +12,14 @@ Open your homework assignment. Click 'Debug' - do the outlines of your HTML look
 5. Rejoice
 
 ## Create the New Drupal Website
-1. clone the dev repo
-2. open Acquia Dev Desktop 2
-3. click on the (+) in the bottom left corner of the window and choose "Import local Drupal site"
-4. for (local codebase folder) select the local repo
-5. fill in (local site name) with an appropriate name for your website
-6. leave it set to "create new database"
-7. after clicking "ok," click on your local site link 
-8. start going through the installation process; leave "standard" and "english" selected, clicking save and continue each time.
-9. fill in all of the required fields,click save and continue.
-10.and enjoy your new website!
+1. Clone the dev repo
+2. Open Acquia Dev Desktop 2
+3. Click on the (+) in the bottom left corner of the window and choose "Import local Drupal site"
+4. For (local codebase folder) select the local repo
+5. Fill in (local site name) with an appropriate name for your website
+6. Leave it set to "create new database"
+7. After clicking "ok," click on your local site link 
+8. Start going through the installation process; leave "standard" and "english" selected, clicking save and continue each time.
+9. Fill in all of the required fields,click save and continue.
+10. Enjoy your new website!
 
